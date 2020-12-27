@@ -16,3 +16,6 @@ git remote add origin git@github.com:aboltykhov/dz_web_server.git
 #Отправляем изменения
 git push -u origin main
 
+#запускать скрипт каждый 3й день в 01:00
+#crontab -e
+#0 1 3 * * /home/adminroot/dz_web_server/web_server_bak.sh`
