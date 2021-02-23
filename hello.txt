@@ -1,0 +1,31 @@
+
+
+Hello Al Bo!
+
+#######################################
+# Пример:
+# Чтобы скачать репозиторий dz_web_server
+#######################################
+pwd
+ll
+mkdir dz_web_server
+cd dz_web_server
+git init
+git remote add origin git@github.com:aboltykhov/dz_web_server.git
+git pull origin main && ll
+
+#######################################
+# Пример:
+# Чтобы отправить dz_web_server
+#######################################
+pwd
+ls -l
+git add .
+git commit -m "Добавлен файл инструкциий для репозитория dz_web_server"
+git branch -M main 
+git push -u origin main 
+
+#######################################
+# И т.д.
+#
+#######################################
