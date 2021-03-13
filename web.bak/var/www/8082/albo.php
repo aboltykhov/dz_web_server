@@ -2,8 +2,8 @@
 <?php
 $user = "wpuser";
 $password = "WP1password$";
-$database = "wordpress";
-$table = "list";
+$database = "wpdb";
+$table = "albo";
 
 try {
   $db = new PDO("mysql:host=localhost;dbname=$database", $user, $password);
