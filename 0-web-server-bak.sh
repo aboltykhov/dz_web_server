@@ -3,15 +3,12 @@
 cd /tmp/dz_web_server
 
 #Переключаемся на нашу ветку
-git checkout main
+#git checkout main
 
 #Добавлем весь каталог в отслеживание
-git add -A
-
-git commit -m "Ежедневное обновление"
-
-#Добавляем репозиторий на github.com
-git remote add origin git@github.com:aboltykhov/dz_web_server.git
+git add .
+git commit -m "Добавлен файл инструкциий для репозитория dz_web_server"
+git branch -M main 
 
 #Отправляем изменения
 git push -u origin main
