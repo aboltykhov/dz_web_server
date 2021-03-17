@@ -7,7 +7,7 @@ cd /tmp/dz_web_server
 
 #Добавлем весь каталог в отслеживание
 git add .
-git commit -m "Добавлен файл инструкциий для репозитория dz_web_server"
+git commit -m "Добавлены инстркции для репозитория dz_web_server"
 git branch -M main 
 
 #Отправляем изменения
