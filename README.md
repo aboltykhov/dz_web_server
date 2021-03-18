@@ -1,5 +1,5 @@
 # dz_web_server
-ДЗ: httpd+nginx
+## ДЗ: httpd+nginx
 Необходимо:
 - установить git
 - создать репозиторий на github
