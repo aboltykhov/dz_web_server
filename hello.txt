@@ -21,7 +21,7 @@ git pull origin main && ll
 pwd
 ls -l
 git add .
-git commit -m "Добавлен файл инструкциий для репозитория dz_web_server"
+git commit -m "Добавлены инстркции для репозитория dz_web_server"
 git branch -M main 
 git push -u origin main 
 
